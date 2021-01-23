@@ -1,0 +1,32 @@
+21:35:13.645 [main] ERROR com.epam.multitreading.reader.DataReader - java.io.FileNotFoundException: data.txt (Не удается найти указанный файл)
+21:36:49.846 [main] INFO  com.epam.multitreading.reader.DataReader - Read from file: data.txt data: [4 8, 2 5, 3 6, 7 9, 8 6].
+21:36:49.853 [main] INFO  com.epam.multitreading.parser.CarParser - Parse: 4 8 to [4, 8]
+21:36:49.853 [main] INFO  com.epam.multitreading.factory.CarFactory - Create new Car: Thread[Thread-3,5,main]
+21:36:49.853 [main] INFO  com.epam.multitreading.parser.CarParser - Parse: 2 5 to [2, 5]
+21:36:49.853 [main] INFO  com.epam.multitreading.factory.CarFactory - Create new Car: Thread[Thread-4,5,main]
+21:36:49.853 [main] INFO  com.epam.multitreading.parser.CarParser - Parse: 3 6 to [3, 6]
+21:36:49.854 [main] INFO  com.epam.multitreading.factory.CarFactory - Create new Car: Thread[Thread-5,5,main]
+21:36:49.854 [main] INFO  com.epam.multitreading.parser.CarParser - Parse: 7 9 to [7, 9]
+21:36:49.854 [main] INFO  com.epam.multitreading.factory.CarFactory - Create new Car: Thread[Thread-6,5,main]
+21:36:49.854 [main] INFO  com.epam.multitreading.parser.CarParser - Parse: 8 6 to [8, 6]
+21:36:49.854 [main] INFO  com.epam.multitreading.factory.CarFactory - Create new Car: Thread[Thread-7,5,main]
+21:36:49.868 [pool-2-thread-1] INFO  com.epam.multitreading.entity.Ferryboat - pool-2-thread-1 : ReadyToGo: true
+21:36:49.868 [pool-2-thread-1] INFO  com.epam.multitreading.entity.Ferryboat - pool-2-thread-1: boarded the ferry waiting for start.
+21:36:49.868 [pool-2-thread-3] INFO  com.epam.multitreading.entity.Ferryboat - pool-2-thread-3 : ReadyToGo: true
+21:36:49.869 [pool-2-thread-3] INFO  com.epam.multitreading.entity.Ferryboat - pool-2-thread-3: boarded the ferry waiting for start.
+21:36:49.869 [pool-2-thread-2] INFO  com.epam.multitreading.entity.Ferryboat - pool-2-thread-2 : ReadyToGo: true
+21:36:49.869 [pool-2-thread-2] INFO  com.epam.multitreading.entity.Ferryboat - pool-2-thread-2: boarded the ferry waiting for start.
+21:36:49.870 [pool-2-thread-4] INFO  com.epam.multitreading.entity.Ferryboat - pool-2-thread-4 : ReadyToGo: true
+21:36:49.870 [pool-2-thread-4] INFO  com.epam.multitreading.entity.Ferryboat - pool-2-thread-4: boarded the ferry waiting for start.
+21:36:49.870 [pool-2-thread-5] INFO  com.epam.multitreading.entity.Ferryboat - pool-2-thread-5 : ReadyToGo: true
+21:36:49.871 [pool-2-thread-5] INFO  com.epam.multitreading.entity.Ferryboat - pool-2-thread-5: boarded the ferry waiting for start.
+21:36:54.879 [pool-2-thread-4] INFO  com.epam.multitreading.entity.Ferryboat - pool-2-thread-4 : cross the river!
+21:36:54.880 [pool-2-thread-3] INFO  com.epam.multitreading.entity.Ferryboat - pool-2-thread-3 : cross the river!
+21:36:54.880 [pool-2-thread-1] INFO  com.epam.multitreading.entity.Ferryboat - pool-2-thread-1 : cross the river!
+21:36:54.879 [pool-2-thread-5] INFO  com.epam.multitreading.entity.Ferryboat - pool-2-thread-5 : cross the river!
+21:36:54.879 [pool-2-thread-2] INFO  com.epam.multitreading.entity.Ferryboat - pool-2-thread-2 : cross the river!
+21:36:59.894 [pool-2-thread-1] INFO  com.epam.multitreading.entity.Ferryboat - pool-2-thread-1 : discharged!
+21:37:00.908 [pool-2-thread-4] INFO  com.epam.multitreading.entity.Ferryboat - pool-2-thread-4 : discharged!
+21:37:01.921 [pool-2-thread-3] INFO  com.epam.multitreading.entity.Ferryboat - pool-2-thread-3 : discharged!
+21:37:02.935 [pool-2-thread-5] INFO  com.epam.multitreading.entity.Ferryboat - pool-2-thread-5 : discharged!
+21:37:03.941 [pool-2-thread-2] INFO  com.epam.multitreading.entity.Ferryboat - pool-2-thread-2 : discharged!
